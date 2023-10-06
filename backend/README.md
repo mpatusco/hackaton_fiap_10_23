@@ -1,0 +1,1 @@
+Aplicacao em python com banco de dados e cache em memória para ser um MVP para o projeto de hackaton.
