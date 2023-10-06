@@ -1,0 +1,150 @@
+html, body, .container {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+  .container {
+    /*padding:150px;*/
+    background: #2F2F31;
+  }
+  
+  #navMenu {
+    top: 36px;
+    left: 75px;
+    width: 80px;
+    height: 80px;
+    z-index: 100;
+    background: linear-gradient(90deg, #FDCE21,#F8A327, #F5852B);
+    -webkit-background: linear-gradient(90deg, #910EC9, #d350db, #910EC9);
+    background-size: 400% 400%;
+    -webkit-background-size: 400% 400%;
+    animation: gradient 5s infinite;
+    -webkit-animation: gradient 5s infinite;
+  }
+  
+  #navMenu:hover, .nav:hover {
+    background: #FDCE21;
+  }
+  
+  @keyframes gradient {
+    50% {
+      background-position: 100% 0;
+    }
+  }
+  @-webkit-keyframes gradient {
+    50% {
+      background-position: 100% 0;
+    }
+  }
+  
+  .diamond {
+    position: absolute;
+    width: 35.5px;
+    height: 35.5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    background:#F8A327;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 1px 4px 10px #101010;
+  }
+  
+  .diamond:active {
+    background: #FDCE21;
+    box-shadow: 0px 1px 2.5px #101010;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+  }
+  
+  /*.popUp{
+    text-align:center;
+    border-radius:10px 0px;
+    position:absolute;
+    top:100px;
+    left:330px;
+    overflow:hidden;
+    background:red;
+    width:0px;
+    max-width:100px;
+  }
+  
+  .#nav1:hover + .popUp{
+    width:100px;
+  }*/
+  
+  .nav {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+  }
+  
+  .nav1 {
+    top: 0px;
+    left: 126px;
+  }
+  
+  .nav2 {
+    top: 28px;
+    left: 154px;
+  }
+  
+  .nav3 {
+    top: 61px;
+    left: 184px;
+  }
+  
+  .nav4 {
+    top: 92px;
+    left: 156px;
+  }
+  
+  .nav5 {
+    top: 120px;
+    left: 128px;
+  }
+  
+  .small {
+    top: 70px;
+    left: 114px;
+    z-index: 10;
+    background: #643fc1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+  }
+  
+  .rotCorrect {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 14px;
+    margin-top: 8px;
+  }
+
+  .center{
+    margin: 0px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+
+.menu{
+    width: 50%; height: 50%;
+}
+
+.full{
+    width: 60%; height: 60%;
+    margin: 0px; 
+}
+  
+  #mainRotCorrect {
+    margin-left: 26px;
+    margin-top: 28px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    max-width: 90px;
+  }
+  
+  i {
+    color: #EEEEEE;
+  }
+  

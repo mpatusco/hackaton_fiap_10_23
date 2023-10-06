@@ -1,0 +1,12 @@
+ <div class="page" style="background-color: #145088;">
+    <form [formGroup]="form" method="POST" class="formLogin">
+        <h1 style="color: #000080;">Login</h1>
+        <p>Digite os seus dados de acesso no campo abaixo.</p>
+        <label style="color: #000080;" for="email">Usuário</label>
+        <input formControlName="userName" type="text" placeholder="Digite seu usuário" autofocus="true" />
+        <label style="color: #000080;" for="password">Senha</label>
+        <input formControlName="password" type="password" placeholder="Digite sua senha" />
+        <a style="text-decoration: underline;" (click)="cadastrar()">Cadastre-se</a>
+        <input (click)="adicionar()" type="submit" value="Acessar" class="btn" />
+    </form>
+</div> 

@@ -1,0 +1,14 @@
+<header>
+  <nav style="height: 85px;" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container">
+      <div>
+        <!-- <img style="height: 60px;" src="https://img.freepik.com/vetores-premium/homem-perfil-caricatura_18591-58482.jpg" class="imgPlaceholder"> -->
+        <app-menu-perfil></app-menu-perfil>
+        <span>{{token.nome}}</span>
+      </div>
+      
+      <a class="navbar-brand" [routerLink]="['/']">Passos Magicos</a>
+      <span (click)="Sair()"> Sair</span>
+    </div>
+  </nav>
+</header>
